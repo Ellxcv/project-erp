@@ -18,6 +18,12 @@
                 </div>
             </div>
             <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Banyak</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="qty" name="qty" placeholder="Banyak" required>
+                </div>
+            </div>
+            <div class="row mb-3">
                 <label class="col-sm-2 col-form-label">Deskripsi</label>
                 <div class="col-sm-10">
                     <textarea class="form-control" id="deskripsi" name="deskripsi" placeholder="Deskripsi" rows="3"></textarea>

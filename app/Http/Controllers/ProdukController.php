@@ -158,6 +158,7 @@ class ProdukController extends Controller
         $produk = ProdukModel::find($id);
         $produk->nama_produk = $request->nama_produk;
         $produk->harga = $request->harga;
+        $produk->qty = $request->qty;
         $produk->deskripsi = $request->deskripsi;
         $produk->status = $request->status;
 
