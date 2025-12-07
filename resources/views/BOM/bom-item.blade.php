@@ -58,9 +58,9 @@
             <div class="col-sm-10">
                 <select class="form-select" name="satuan" id="satuan" required>
                     <option value="" disabled selected>-- Select Option --</option>
-                    <option value="M">M</option>
-                    <option value="Cm">Cm</option>
-                    <option value="Buah">Buah</option>
+                    <option value="ml">ml</option>
+                    <option value="g">g</option>
+                    <option value="pcs">Pcs</option>
                 </select>
                 @error('satuan')
                     <small class="text-danger">{{ $message }}</small>

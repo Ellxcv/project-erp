@@ -20,10 +20,10 @@
 
         @if ($produk->count())
             @foreach ($produk as $product)
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <div class="card card-produk mb-3">
                         <img src="{{ url('gambar/' . $product->gambar) }}" alt="No images"
-                            style="width:100%;height:200px; border-radius: 10%;">
+                            style="width:200px;height:200px; border-radius: 10%;">
                         <div class="card-body">
                             <h5 class="card-title">{{ $product->nama_produk }}</h5>
                             <p class="card-text">
