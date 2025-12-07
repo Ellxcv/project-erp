@@ -17,7 +17,7 @@
                         <h5 class="card-title">Produk</h5>
                         <div class="d-flex align-items-center">
                             <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                <i class="bi bi-people"></i>
+                                <i class="bi bi-box-seam"></i>
                             </div>
                             <div class="ps-3">
                                 <h6>{{ $data['produks'] }}</h6>
@@ -32,7 +32,7 @@
                         <h5 class="card-title">Data Bahan</h5>
                         <div class="d-flex align-items-center">
                             <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                <i class="bi bi-people-fill"></i>
+                                <i class="bi bi-boxes"></i>
                             </div>
                             <div class="ps-3">
                                 <h6>{{ $data['bahans'] }}</h6>
@@ -62,7 +62,7 @@
                         <h5 class="card-title">Data Vendor Perorangan</h5>
                         <div class="d-flex align-items-center">
                             <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                <i class="bi bi-file-person-fill"></i>
+                                <i class="bi bi-person-workspace"></i>
                             </div>
                             <div class="ps-3">
                                 <h6>{{ $data['vendor2'] }}</h6>
@@ -77,7 +77,7 @@
                         <h5 class="card-title">Data Client</h5>
                         <div class="d-flex align-items-center">
                             <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                <i class="bi bi-person-vcard-fill"></i>
+                                <i class="bi bi-people-fill"></i>
                             </div>
                             <div class="ps-3">
                                 <h6>{{ $data['vendor3'] }}</h6>

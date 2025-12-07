@@ -10,7 +10,7 @@
 
           <li class="nav-item">
               <a class="nav-link collapsed" data-bs-target="#product-nav" data-bs-toggle="collapse" href="#">
-                  <i class="bi bi-basket3-fill"></i><span>Product</span><i class="bi bi-chevron-down ms-auto"></i>
+                  <i class="bi bi-box-seam"></i><span>Product</span><i class="bi bi-chevron-down ms-auto"></i>
               </a>
               <ul id="product-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                   <li>
