@@ -16,7 +16,7 @@ return new class extends Migration
             $table->text('deskripsi')->nullable();
             $table->string('gambar', 255)->nullable();
 
-            $table->integer('qty')->default(0);
+            $table->decimal('qty', 15, 2)->default(0);
             $table->decimal('harga', 15, 2)->default(0);
 
             // 1 = aktif, 0 = nonaktif

@@ -92,7 +92,7 @@ class ProdukController extends Controller
             'id' => $request->id,
             'nama_produk' => $request->nama_produk,
             'id_reference' => 0,
-            'qty' => 0,
+            'qty' => $request->qty,
             'harga' => $request->harga,
             'status' => $request->status,
             'deskripsi' => $request->deskripsi,
